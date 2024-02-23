@@ -1,0 +1,12 @@
+@keyframes bounceY {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px); /* Adjust the pixel value to increase or decrease the distance */
+    }
+  }
+  .animate-bounceY {
+    animation: bounceY 1s infinite; /* Adjust the time to control the speed */
+  }
+

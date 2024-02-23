@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  background: black;
+  font-family: 'Inter', sans-serif;
+}
+input:focus {
+  outline: none;
+}
+
+.dark-toast {
+  background-color: rgb(29, 26, 26);
+  color: aliceblue;
+}
